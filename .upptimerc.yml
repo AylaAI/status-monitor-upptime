@@ -6,6 +6,9 @@ sites:
   - name: Ayla
     url: https://platform.ayla-app.org
 
+  - name: Downtime test
+    url: https://batman.ayla-app.org
+
 assignees:
   - roablep
 
