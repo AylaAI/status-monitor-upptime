@@ -10,11 +10,31 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1119,
-    "timeDay": 1119,
-    "timeWeek": 1119,
-    "timeMonth": 1119,
-    "timeYear": 1119,
+    "time": 906,
+    "timeDay": 906,
+    "timeWeek": 906,
+    "timeMonth": 906,
+    "timeYear": 906,
     "dailyMinutesDown": {}
+  },
+  {
+    "name": "Downtime test",
+    "url": "https://batman.ayla-app.org",
+    "icon": "https://icons.duckduckgo.com/ip3/batman.ayla-app.org.ico",
+    "slug": "downtime-test",
+    "status": "down",
+    "uptime": "1.45%",
+    "uptimeDay": "1.45%",
+    "uptimeWeek": "1.45%",
+    "uptimeMonth": "1.45%",
+    "uptimeYear": "1.45%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2025-02-28": 0
+    }
   }
 ]
