@@ -34,6 +34,11 @@ With [Upptime](https://upptime.js.org), you can get your own unlimited and free 
 
 [**Visit our status website →**](https://upptime.github.io/upptime)
 
+## Manually Adding Issues
+You can manually create a Github Issue to show it on the dashboard. Useful for acknowledging known outages, planned downtime, etc. 
+To do this, you **must add the `status` label** to the issue.
+Alternatively, you can use an issue template. 
+
 ## 📄 License
 
 - Powered by: [Upptime](https://github.com/upptime/upptime)
