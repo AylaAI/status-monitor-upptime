@@ -3,11 +3,100 @@ owner: AylaAI # Your GitHub organization or username, where this repository live
 repo: status-monitor-upptime # The name of this repository
 
 sites:
-  - name: Ayla
-    url: https://platform.ayla-app.org
+  - name: Platform Status Endpoint
+    url: https://platform.ayla-app.org/status
+    method: GET
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: '"status": "OK"'
+
+  - name: Redis Service
+    url: https://platform.ayla-app.org/status
+    method: GET
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: "Redis is running"
+
+  - name: Milvus Service
+    url: https://platform.ayla-app.org/status
+    method: GET
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: "Milvus is running"
+
+  - name: MongoDB Service
+    url: https://platform.ayla-app.org/status
+    method: GET
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: "MongoDB is running"
+
+  - name: API Server
+    url: https://platform.ayla-app.org/status
+    method: GET
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: "api_server is running"
+
+  - name: Audio Server
+    url: https://platform.ayla-app.org/status
+    method: GET
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: "audio_server is running"
+
+  - name: Chatbot Server
+    url: https://platform.ayla-app.org/status
+    method: GET
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: "chatbot_server is running"
+
+  - name: TTS Server
+    url: https://platform.ayla-app.org/status
+    method: GET
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: "tts_server is running"
+
+  - name: Conversation Cron Task
+    url: https://platform.ayla-app.org/status
+    method: GET
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: "conversation_cron_task is running"
+
+  - name: VisitAssist Phone Recording Pull Cron
+    url: https://platform.ayla-app.org/status
+    method: GET
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: "dr_visit_phone_recording_pull_cron_task is running"
+
+  - name: VisitAssist Summary Cron
+    url: https://platform.ayla-app.org/status
+    method: GET
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: "dr_visit_summary_cron_task is running"
+
+  - name: CareNote Cron
+    url: https://platform.ayla-app.org/status
+    method: GET
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: "carenote_cron_task is running"
+
+  - name: Email Ingestion Pull Cron
+    url: https://platform.ayla-app.org/status
+    method: GET
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: "email_ingestion_pull_cron_task is running"
 
 assignees:
   - roablep
+  
 workflowSchedule:
   graphs: "0 0 * * *"
   responseTime: "0 23 * * *"
@@ -16,6 +105,7 @@ workflowSchedule:
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
   uptime: "0 */8 * * *"
+  
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
