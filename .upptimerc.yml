@@ -109,8 +109,8 @@ workflowSchedule:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: status.ayla-app.org
-  # baseUrl: /your-repo-name
+  # cname: status.ayla-app.org
+  baseUrl: /status-monitor-upptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Status | AylaAI
   introTitle: "**Ayla** is the world's first AI designed to help older adults manage tasks and improve memory, enhancing daily living and independence."
