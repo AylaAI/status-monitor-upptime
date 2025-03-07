@@ -2,6 +2,11 @@
 owner: AylaAI # Your GitHub organization or username, where this repository lives
 repo: status-monitor-upptime # The name of this repository
 
+env:
+  NOTIFICATION_DISCORD: "true"
+  NOTIFICATION_DISCORD_WEBHOOK: "true"
+  NOTIFICATION_DISCORD_WEBHOOK_URL: "https://discord.com/api/webhooks/1347309734633541692/_LdcnQ_00TJ1fDWk9D9y-dcs_0BUKFzIhWyFLKttipqGnAAwMTpCckZ7cEYyw924im18"
+
 sites:
   - name: test email notifications
     url: https://d.ayla-app.org
@@ -122,6 +127,13 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+
+notifications:
+  discord:
+    - type: "down"
+      webhookUrl: $NOTIFICATION_DISCORD_WEBHOOK_URL
+    - type: "up"
+      webhookUrl: $NOTIFICATION_DISCORD_WEBHOOK_URL
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
