@@ -1,7 +1,7 @@
-url: https://platform.ayla-app.org/status
-status: up
-code: 200
-responseTime: 922
-lastUpdated: 2025-03-07T15:09:59.879Z
+url: AYLA_STATUS_ENDPOINT
+status: down
+code: 0
+responseTime: 0
+lastUpdated: 2025-03-07T16:01:01.209Z
 startTime: 2025-03-05T11:18:45.618Z
 generator: Upptime <https://github.com/upptime/upptime>
