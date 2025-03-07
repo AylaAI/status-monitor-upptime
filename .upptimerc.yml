@@ -12,91 +12,91 @@ sites:
   - name: test email notifications
     url: https://d.ayla-app.org
   - name: Platform Status Endpoint
-    url: AYLA_STATUS_ENDPOINT
+    url: $AYLA_STATUS_ENDPOINT
     method: GET
     expectedStatusCodes:
       - 200
     __dangerous__body_down_if_text_missing: '"status": "OK"'
 
   - name: Redis Service
-    url: AYLA_STATUS_ENDPOINT
+    url: $AYLA_STATUS_ENDPOINT
     method: GET
     expectedStatusCodes:
       - 200
     __dangerous__body_down_if_text_missing: "Redis is running"
 
   - name: Milvus Service
-    url: AYLA_STATUS_ENDPOINT
+    url: $AYLA_STATUS_ENDPOINT
     method: GET
     expectedStatusCodes:
       - 200
     __dangerous__body_down_if_text_missing: "Milvus is running"
 
   - name: MongoDB Service
-    url: AYLA_STATUS_ENDPOINT
+    url: $AYLA_STATUS_ENDPOINT
     method: GET
     expectedStatusCodes:
       - 200
     __dangerous__body_down_if_text_missing: "MongoDB is running"
 
   - name: API Server
-    url: AYLA_STATUS_ENDPOINT
+    url: $AYLA_STATUS_ENDPOINT
     method: GET
     expectedStatusCodes:
       - 200
     __dangerous__body_down_if_text_missing: "api_server is running"
 
   - name: Audio Server
-    url: AYLA_STATUS_ENDPOINT
+    url: $AYLA_STATUS_ENDPOINT
     method: GET
     expectedStatusCodes:
       - 200
     __dangerous__body_down_if_text_missing: "audio_server is running"
 
   - name: Chatbot Server
-    url: AYLA_STATUS_ENDPOINT
+    url: $AYLA_STATUS_ENDPOINT
     method: GET
     expectedStatusCodes:
       - 200
     __dangerous__body_down_if_text_missing: "chatbot_server is running"
 
   - name: TTS Server
-    url: AYLA_STATUS_ENDPOINT
+    url: $AYLA_STATUS_ENDPOINT
     method: GET
     expectedStatusCodes:
       - 200
     __dangerous__body_down_if_text_missing: "tts_server is running"
 
   - name: Conversation Cron Task
-    url: AYLA_STATUS_ENDPOINT
+    url: $AYLA_STATUS_ENDPOINT
     method: GET
     expectedStatusCodes:
       - 200
     __dangerous__body_down_if_text_missing: "conversation_cron_task is running"
 
   - name: VisitAssist Phone Recording Pull Cron
-    url: AYLA_STATUS_ENDPOINT
+    url: $AYLA_STATUS_ENDPOINT
     method: GET
     expectedStatusCodes:
       - 200
     __dangerous__body_down_if_text_missing: "dr_visit_phone_recording_pull_cron_task is running"
 
   - name: VisitAssist Summary Cron
-    url: AYLA_STATUS_ENDPOINT
+    url: $AYLA_STATUS_ENDPOINT
     method: GET
     expectedStatusCodes:
       - 200
     __dangerous__body_down_if_text_missing: "dr_visit_summary_cron_task is running"
 
   - name: CareNote Cron
-    url: AYLA_STATUS_ENDPOINT
+    url: $AYLA_STATUS_ENDPOINT
     method: GET
     expectedStatusCodes:
       - 200
     __dangerous__body_down_if_text_missing: "carenote_cron_task is running"
 
   - name: Email Ingestion Pull Cron
-    url: AYLA_STATUS_ENDPOINT
+    url: $AYLA_STATUS_ENDPOINT
     method: GET
     expectedStatusCodes:
       - 200
