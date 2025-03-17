@@ -9,14 +9,6 @@ env:
   AYLA_STATUS_ENDPOINT: ${{ secrets.AYLA_STATUS_ENDPOINT }}
 
 sites:
-  - name: test email notifications
-    url: https://d.ayla-app.org
-  - name: Platform Status Endpoint
-    url: $AYLA_STATUS_ENDPOINT
-    method: GET
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down_if_text_missing: '"status": "OK"'
 
   - name: Redis Service
     url: $AYLA_STATUS_ENDPOINT
