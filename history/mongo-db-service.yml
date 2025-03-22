@@ -1,7 +1,7 @@
 url: $AYLA_STATUS_ENDPOINT
 status: up
 code: 200
-responseTime: 926
-lastUpdated: 2025-03-21T23:09:59.430Z
+responseTime: 916
+lastUpdated: 2025-03-22T23:10:24.858Z
 startTime: 2025-03-05T11:18:45.618Z
 generator: Upptime <https://github.com/upptime/upptime>
