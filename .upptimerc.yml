@@ -66,33 +66,54 @@ sites:
       - 200
     __dangerous__body_down_if_text_missing: "conversation_cron_task is running"
 
-  - name: VisitAssist Phone Recording Pull Cron
-    url: $AYLA_STATUS_ENDPOINT
-    method: GET
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down_if_text_missing: "dr_visit_phone_recording_pull_cron_task is running"
+  # - name: VisitAssist Phone Recording Pull Cron
+  #   url: $AYLA_STATUS_ENDPOINT
+  #   method: GET
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down_if_text_missing: "dr_visit_phone_recording_pull_cron_task is running"
 
-  - name: VisitAssist Summary Cron
-    url: $AYLA_STATUS_ENDPOINT
-    method: GET
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down_if_text_missing: "dr_visit_summary_cron_task is running"
+  # - name: VisitAssist Summary Cron
+  #   url: $AYLA_STATUS_ENDPOINT
+  #   method: GET
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down_if_text_missing: "dr_visit_summary_cron_task is running"
 
-  - name: CareNote Cron
-    url: $AYLA_STATUS_ENDPOINT
-    method: GET
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down_if_text_missing: "carenote_cron_task is running"
+  # - name: CareNote Cron
+  #   url: $AYLA_STATUS_ENDPOINT
+  #   method: GET
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down_if_text_missing: "carenote_cron_task is running"
 
-  - name: Email Ingestion Pull Cron
+  - name: CareNote Email Ingestion Pull Cron
     url: $AYLA_STATUS_ENDPOINT
     method: GET
     expectedStatusCodes:
       - 200
-    __dangerous__body_down_if_text_missing: "email_ingestion_pull_cron_task is running"
+    __dangerous__body_down_if_text_missing: "email_carenote is running"
+
+  - name: VisitAssist Email Ingestion Pull Cron
+    url: $AYLA_STATUS_ENDPOINT
+    method: GET
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: "email_visitassist is running"
+
+  - name: CareNote Phone Ingestion Pull Cron
+    url: $AYLA_STATUS_ENDPOINT
+    method: GET
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: "plivo_carenote is running"
+
+  - name: VisitAssist Phone Ingestion Pull Cron
+    url: $AYLA_STATUS_ENDPOINT
+    method: GET
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: "plivo_visitassist is running"
 
 assignees:
   - roablep
