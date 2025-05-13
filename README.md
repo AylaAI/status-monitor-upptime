@@ -2,6 +2,8 @@
 
 This repository contains the open-source uptime monitor and status page for [Upptime](https://upptime.js.org), powered by [Upptime](https://github.com/upptime/upptime).
 
+Edit this file: .upptimerc.yml
+
 [![Uptime CI](https://github.com/AylaAI/status-monitor-upptime/workflows/Uptime%20CI/badge.svg)](https://github.com/AylaAI/status-monitor-upptime/actions?query=workflow%3A%22Uptime+CI%22)
 [![Response Time CI](https://github.com/AylaAI/status-monitor-upptime/workflows/Response%20Time%20CI/badge.svg)](https://github.com/AylaAI/status-monitor-upptime/actions?query=workflow%3A%22Response+Time+CI%22)
 [![Graphs CI](https://github.com/AylaAI/status-monitor-upptime/workflows/Graphs%20CI/badge.svg)](https://github.com/AylaAI/status-monitor-upptime/actions?query=workflow%3A%22Graphs+CI%22)
