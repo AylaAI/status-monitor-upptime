@@ -87,19 +87,19 @@ sites:
   #     - 200
   #   __dangerous__body_down_if_text_missing: "carenote_cron_task is running"
 
-  - name: CareNote Email Ingestion Pull Cron
-    url: $AYLA_STATUS_ENDPOINT
-    method: GET
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down_if_text_missing: "email_carenote is running"
+  # - name: CareNote Email Ingestion Pull Cron
+  #   url: $AYLA_STATUS_ENDPOINT
+  #   method: GET
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down_if_text_missing: "email_carenote is running"
 
-  - name: VisitAssist Email Ingestion Pull Cron
-    url: $AYLA_STATUS_ENDPOINT
-    method: GET
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down_if_text_missing: "email_visitassist is running"
+  # - name: VisitAssist Email Ingestion Pull Cron
+  #   url: $AYLA_STATUS_ENDPOINT
+  #   method: GET
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down_if_text_missing: "email_visitassist is running"
 
   - name: CareNote Phone Ingestion Pull Cron
     url: $AYLA_STATUS_ENDPOINT
