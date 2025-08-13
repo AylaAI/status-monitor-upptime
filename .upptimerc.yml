@@ -17,12 +17,12 @@ sites:
       - 200
     __dangerous__body_down_if_text_missing: "Redis is running"
 
-  - name: Milvus Service
-    url: $AYLA_STATUS_ENDPOINT
-    method: GET
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down_if_text_missing: "Milvus is running"
+  # - name: Milvus Service
+  #   url: $AYLA_STATUS_ENDPOINT
+  #   method: GET
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down_if_text_missing: "Milvus is running"
 
   - name: MongoDB Service
     url: $AYLA_STATUS_ENDPOINT
