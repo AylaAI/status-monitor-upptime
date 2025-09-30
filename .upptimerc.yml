@@ -52,32 +52,32 @@ sites:
     __dangerous__body_down_if_text_missing: "plivo_visitassist is running"
 
   # - name: Audio Server
-  #   url: $AYLA_STATUS_ENDPOINT
-  #   method: GET
-  #   expectedStatusCodes:
-  #     - 200
-  #   __dangerous__body_down_if_text_missing: "audio_server is running"
+  #   url: $AYLA_STATUS_ENDPOINT
+  #   method: GET
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down_if_text_missing: "audio_server is running"
 
-  # - name: Chatbot Server
-  #   url: $AYLA_STATUS_ENDPOINT
-  #   method: GET
-  #   expectedStatusCodes:
-  #     - 200
-  #   __dangerous__body_down_if_text_missing: "chatbot_server is running"
+  # - name: Chatbot Server
+  #   url: $AYLA_STATUS_ENDPOINT
+  #   method: GET
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down_if_text_missing: "chatbot_server is running"
 
-  # - name: TTS Server
-  #   url: $AYLA_STATUS_ENDPOINT
-  #   method: GET
-  #   expectedStatusCodes:
-  #     - 200
-  #   __dangerous__body_down_if_text_missing: "tts_server is running"
+  # - name: TTS Server
+  #   url: $AYLA_STATUS_ENDPOINT
+  #   method: GET
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down_if_text_missing: "tts_server is running"
 
-  # - name: Conversation Cron Task
-  #   url: $AYLA_STATUS_ENDPOINT
-  #   method: GET
-  #   expectedStatusCodes:
-  #     - 200
-  #   __dangerous__body_down_if_text_missing: "conversation_cron_task is running"
+  # - name: Conversation Cron Task
+  #   url: $AYLA_STATUS_ENDPOINT
+  #   method: GET
+  #   expectedStatusCodes:
+  #     - 200
+  #   __dangerous__body_down_if_text_missing: "conversation_cron_task is running"
 
   # - name: VisitAssist Phone Recording Pull Cron
   #   url: $AYLA_STATUS_ENDPOINT
