@@ -38,6 +38,20 @@ sites:
       - 200
     __dangerous__body_down_if_text_missing: "api_server is running"
 
+  - name: CareNote Phone Ingestion Pull Cron
+    url: $AYLA_STATUS_ENDPOINT
+    method: GET
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: "plivo_carenote is running"
+
+  - name: VisitAssist Phone Ingestion Pull Cron
+    url: $AYLA_STATUS_ENDPOINT
+    method: GET
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: "plivo_visitassist is running"
+    
   # - name: Audio Server
   #   url: $AYLA_STATUS_ENDPOINT
   #   method: GET
@@ -100,20 +114,7 @@ sites:
   #   expectedStatusCodes:
   #     - 200
   #   __dangerous__body_down_if_text_missing: "email_visitassist is running"
-
-  - name: CareNote Phone Ingestion Pull Cron
-    url: $AYLA_STATUS_ENDPOINT
-    method: GET
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down_if_text_missing: "plivo_carenote is running"
-
-  - name: VisitAssist Phone Ingestion Pull Cron
-    url: $AYLA_STATUS_ENDPOINT
-    method: GET
-    expectedStatusCodes:
-      - 200
-    __dangerous__body_down_if_text_missing: "plivo_visitassist is running"
+    
 
 assignees:
   - roablep
