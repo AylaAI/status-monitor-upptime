@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "96.62%",
     "uptimeYear": "99.08%",
-    "time": 948,
-    "timeDay": 227,
-    "timeWeek": 631,
-    "timeMonth": 730,
-    "timeYear": 967,
+    "time": 949,
+    "timeDay": 1141,
+    "timeWeek": 748,
+    "timeMonth": 741,
+    "timeYear": 966,
     "dailyMinutesDown": {
       "2026-03-27": 714,
       "2026-03-23": 232,
@@ -35,8 +35,7 @@
       "2025-05-28": 345,
       "2025-05-13": 26,
       "2025-05-09": 184,
-      "2025-04-28": 171,
-      "2025-04-17": 121
+      "2025-04-28": 171
     }
   },
   {
@@ -51,8 +50,8 @@
     "uptimeMonth": "96.62%",
     "uptimeYear": "98.99%",
     "time": 892,
-    "timeDay": 825,
-    "timeWeek": 904,
+    "timeDay": 909,
+    "timeWeek": 902,
     "timeMonth": 811,
     "timeYear": 898,
     "dailyMinutesDown": {
@@ -76,8 +75,7 @@
       "2025-05-28": 345,
       "2025-05-13": 26,
       "2025-05-09": 184,
-      "2025-04-28": 171,
-      "2025-04-17": 121
+      "2025-04-28": 171
     }
   },
   {
@@ -92,7 +90,7 @@
     "uptimeMonth": "96.62%",
     "uptimeYear": "99.07%",
     "time": 974,
-    "timeDay": 920,
+    "timeDay": 918,
     "timeWeek": 921,
     "timeMonth": 821,
     "timeYear": 994,
@@ -116,8 +114,7 @@
       "2025-05-28": 345,
       "2025-05-13": 26,
       "2025-05-09": 184,
-      "2025-04-28": 171,
-      "2025-04-17": 121
+      "2025-04-28": 171
     }
   },
   {
@@ -126,14 +123,14 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "care-note-phone-ingestion-pull-cron",
     "status": "up",
-    "uptime": "97.36%",
+    "uptime": "97.37%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "96.62%",
-    "uptimeYear": "97.36%",
+    "uptimeYear": "97.37%",
     "time": 963,
-    "timeDay": 919,
-    "timeWeek": 917,
+    "timeDay": 914,
+    "timeWeek": 916,
     "timeMonth": 774,
     "timeYear": 963,
     "dailyMinutesDown": {
@@ -174,14 +171,14 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "visit-assist-phone-ingestion-pull-cron",
     "status": "up",
-    "uptime": "97.38%",
+    "uptime": "97.39%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "96.62%",
-    "uptimeYear": "97.38%",
+    "uptimeYear": "97.39%",
     "time": 974,
-    "timeDay": 907,
-    "timeWeek": 920,
+    "timeDay": 916,
+    "timeWeek": 919,
     "timeMonth": 770,
     "timeYear": 974,
     "dailyMinutesDown": {
